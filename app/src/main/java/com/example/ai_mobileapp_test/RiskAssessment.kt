@@ -293,7 +293,7 @@ fun OldpeakDropdownMenu(fatigueLevels: List<Int>, selectedFatigueLevel: Int, onS
     if (showDialog) {
         AlertDialog(
             onDismissRequest = { showDialog = false },
-            title = { Text("Oldpeak Information") },
+            title = { Text("Information") },
             text = {
                 Text(
                     "How much do you struggle with physical activity (e.g., exercise, climbing stairs)?\n\n" +

@@ -46,13 +46,12 @@ fun PreviousAssessmentsScreen(navController: NavController, currentID: Int?) {
 
     fun getRiskColor(score: Double): Color {
         return when {
-            score < 20 -> Color(0xFF228B22) // Dark Green
-            score < 40 -> Color(0xFFFFD700) // Gold
-            score < 60 -> Color(0xFFFF8C00) // Dark Orange
-            score < 80 -> Color(0xFFD50606) // Crimson Red
-            else -> Color(0xFF8B0000) // Dark Red
+            score < 33.33 -> Color(0xFF228B22) // Dark Green for Low Risk
+            score < 66.66 -> Color(0xFFFFA500) // Orange for Moderate Risk
+            else -> Color(0xFFD50606) // Red for High Risk
         }
     }
+
 
     LaunchedEffect(currentID) {
         currentID?.let {
@@ -102,9 +101,9 @@ fun PreviousAssessmentsScreen(navController: NavController, currentID: Int?) {
                                 )
                                 Text(
                                     text = "Risk Score: ${assessment.riskScore}%",
-                                    style = MaterialTheme.typography.bodyLarge,
                                     color = riskColor,
-                                    fontSize = 20.sp
+                                    fontSize = 20.sp,
+                                    fontWeight = FontWeight.Bold
                                 )
                                 Text("Chest Pain Type: ${assessment.chestPainType}")
                                 Text("Resting BP: ${assessment.restingBP}")
