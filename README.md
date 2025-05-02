@@ -60,11 +60,11 @@ val apiUrl = "http://192.168.X.X:5000/predict"
 ```
 frontend/
 │
-├── MainActivity.kt                  # Root navigation host
+├── MainActivity.kt                 # Root navigation host
 ├── screens/
-│   ├── SignIn.kt                    # Sign-in screen
-│   ├── SignUp.kt                    # Registration screen
-│   ├── Dashboard.kt                 # Home dashboard
+│   ├── SignIn.kt                   # Sign-in screen
+│   ├── SignUp.kt                   # Registration screen
+│   ├── Dashboard.kt                # Home dashboard
 │   ├── RiskAssessment.kt           # Risk assessment form and request logic
 │   ├── RiskResult.kt               # Results display screen
 │   ├── PreviousAssessments.kt      # View previous risk history
