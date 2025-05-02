@@ -12,12 +12,12 @@ The application is built using **Kotlin** in **Android Studio**, communicates wi
 
 ## Features
 
-- 🔐 **User Authentication**: Sign Up, Login, and local account management.
-- 📊 **Risk Prediction Form**: Users enter health metrics used to calculate CHD risk.
-- 📡 **XML-based Communication**: Sends health data as XML to the backend server via HTTP.
-- 📈 **Results Screen**: Displays CHD risk score, color-coded risk category, and personalized recommendations.
-- 💾 **Previous Assessments**: Stores and displays user's past risk evaluations using SQLite.
-- 📱 **Fully Responsive UI**: Designed with Jetpack Compose for modern and responsive UI on Android devices.
+- **User Authentication**: Sign Up, Login, and local account management.
+- **Risk Prediction Form**: Users enter health metrics used to calculate CHD risk.
+- **XML-based Communication**: Sends health data as XML to the backend server via HTTP.
+- **Results Screen**: Displays CHD risk score, color-coded risk category, and personalized recommendations.
+- **Previous Assessments**: Stores and displays user's past risk evaluations using SQLite.
+- **Fully Responsive UI**: Designed with Jetpack Compose for modern and responsive UI on Android devices.
 
 ---
 
