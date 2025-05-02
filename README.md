@@ -103,17 +103,18 @@ frontend/
 
 ---
 
-## Contributors
-
-- Tristan Garner  
-- Muhsen AbuMuhsen  
-- Chase Lillard
-
----
-
 ## Future Improvements
 
 - Migrate to **HTTPS** for production deployment.
 - Improve input validation and error handling.
 - Consider implementing **Room** or **Jetpack DataStore** for more scalable local storage.
 - Integrate charts for visualizing past risk scores.
+
+
+---
+
+## Contributors
+
+- Tristan Garner  
+- Muhsen AbuMuhsen  
+- Chase Lillard
