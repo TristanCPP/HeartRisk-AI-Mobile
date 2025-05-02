@@ -325,7 +325,7 @@ fun sendRiskAssessmentRequest(
     context: android.content.Context,
     onResponse: (String) -> Unit
 ) {
-    val apiUrl = "http://192.168.1.70:5000/predict"
+    val apiUrl = "http://###.###.###.###:5000/predict" // Enter IP that server is located on
 
     val xmlRequest = """
         <HeartRiskRequest>
