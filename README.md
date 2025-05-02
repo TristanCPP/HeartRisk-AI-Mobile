@@ -114,7 +114,5 @@ frontend/
 ---
 
 ## Contributors
-
-- Tristan Garner  
-- Muhsen AbuMuhsen  
-- Chase Lillard
+**Team Members**: Tristan Garner, Muhsen AbuMuhsen, Chase Lillard  
+**Advisor**: Dr. Ahmad Al-Shami
