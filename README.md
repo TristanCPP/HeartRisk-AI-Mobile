@@ -27,7 +27,6 @@ The application is built using **Kotlin** in **Android Studio**, communicates wi
 - **IDE**: Android Studio (Electric Eel or newer)
 - **UI**: Jetpack Compose
 - **Local Storage**: SQLite (Android Room not used for simplicity)
-- **HTTP Client**: Ktor Client (for sending XML requests)
 - **XML Format**: Used to structure requests/responses between mobile and backend
 
 ---
