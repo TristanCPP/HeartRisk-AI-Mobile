@@ -37,6 +37,7 @@ The application is built using **Kotlin** in **Android Studio**, communicates wi
 
 - Android Studio installed
 - An Android emulator or physical device running Android 7.0 (API 24) or newer
+- SQLite installed
 - Ensure the backend server is running on the **same local network** or deployed to a remote host
 
 ### How to Run
